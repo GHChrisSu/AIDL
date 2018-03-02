@@ -1,0 +1,3 @@
+include ':aidlservice', ':aidlclient'
+project(':aidlservice').projectDir = new File('aidlremoteservice')
+project(':aidlclient').projectDir = new File('aidlremoteclient')
